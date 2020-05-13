@@ -3,12 +3,14 @@ let data = require("./data.json");
 function getAll() {
   let result = [];
   let { suits, values } = data;
-  suits.forEach(({ suitId }) => {
-    values.forEach(({ valId }) => {
+  suits.forEach((suit) => {
+    values.forEach((value) => {
       result.push({
-        id: (suitId - 1) * values.length + valId,
-        cardName: `${values[valId - 1].text} of ${suits[suitId - 1].text}`,
-        cardDisplay: `${values[valId - 1].display}${suits[suitId - 1].display}`,
+        id: (suit.suitId - 1) * values.length + value.valId,
+        cardName: `${value.text} of ${suit.text}`,
+        cardDisplay: `${value.display}${suit.display}`,
+        suitSymbol: suit.display,
+        cardNumber: value.display,
       });
     });
   });
