@@ -17,11 +17,7 @@ npm install  cards-unicode
 ```js
 let cardsUnicode = require("cards-unicode");
 
-let cardsUnicode = require("./index");
-
-let cards = cardsUnicode.getAll();
-
-let cardUnicode = cards.map(({ cardDisplay }) => {
+let cardUnicode = cardsUnicode.getAll().map(({ cardDisplay }) => {
   return cardDisplay;
 });
 
