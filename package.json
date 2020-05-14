@@ -1,5 +1,5 @@
 {
-  "name": "cards-unicode",
+  "name": "cards-ascii",
   "version": "1.0.1",
   "description": "Cards representation in Unicode",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wramp/cards-unicode.git"
+    "url": "git+https://github.com/wramp/cards-ascii.git"
   },
   "keywords": [
     "cards",
@@ -17,10 +17,11 @@
   "author": "Jakub Gereg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wramp/cards-unicode/issues"
+    "url": "https://github.com/wramp/cards-ascii/issues"
   },
-  "homepage": "https://github.com/wramp/cards-unicode#readme",
-  "dependencies": {
+  "homepage": "https://github.com/wramp/cards-ascii#readme",
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^26.0.1"
   }
 }
