@@ -58,9 +58,6 @@ function getAllByNumber(number) {
   return result;
 }
 
-// console.log(getAllByNumber("K"));
-console.log(getByNumberAndSuit("J", "♣"));
-
 module.exports = {
   getAll,
   getAllBySuit,
