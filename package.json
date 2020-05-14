@@ -1,6 +1,6 @@
 {
   "name": "cards-unicode",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Cards representation in Unicode",
   "main": "index.js",
   "scripts": {
